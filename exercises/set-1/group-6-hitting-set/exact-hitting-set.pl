@@ -18,9 +18,9 @@ set(3).
 element(3,b).
 element(3,c).
 
-% % Select exactly one element from each set
-select(X) :- element(X,E), not element(Y,E), not element(Z,E), set(X), set(Y), set(Z), X!=Y, Y!=Z, X!=Z.
-
+% % Select exactly one element from each set (GENERATOR)
 1{select(Y) : element(X,Y)}1 :- set(X).
 
 % % % Solutions: {select(b),select(d)}, {select(c)}
+
+#show select/1.

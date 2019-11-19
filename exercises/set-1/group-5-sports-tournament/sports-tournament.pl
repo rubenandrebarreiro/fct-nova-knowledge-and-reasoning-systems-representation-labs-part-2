@@ -17,8 +17,6 @@ group(1..2).
 % % %      3 Teams assigned to it
 3{in(X,Y): team(X)}3 :- group(Y).
 
-group(X).
-
 % % 2.2) Each Team must be assigned to
 % %      exactly 1 Group
 1{in(X,Y): group(Y)}1 :- team(X).
