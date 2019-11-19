@@ -1,0 +1,1 @@
+# fct-nova-knowledge-and-reasoning-systems-representation-labs-part-2
